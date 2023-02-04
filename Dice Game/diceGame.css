@@ -1,0 +1,90 @@
+body {
+    background-color: #333333;
+}
+
+button{
+    width: 7%;
+    background-color: #333333;
+    font-family: Orbitron;
+    font-size: 10px;
+    padding: 1% 0.5%;
+    margin: 20px;
+    border: 2px solid;
+    transition: 0.5s;
+}
+
+button:hover{
+    width: 10%;
+    letter-spacing: 3px;
+    transition: all 0.5s ease-out;
+    background-color: #008080;
+    font-family: orbitron;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.gameTitle {
+    font-size: 5rem;
+    color: #008080;
+    font-family: Orbitron;
+    text-align: center;
+    margin-top: -70px;
+}
+
+.gameTitleChange {
+    font-size: 3rem;
+    color: #008080;
+    font-family: Orbitron;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.gameRule{
+    color: #008080;
+    font-family: Orbitron;
+    font-size: 2rem;
+    margin-left: 20px;
+    margin-top: -150px;
+    margin-bottom: -40px;
+    transform: rotate(-30deg);
+}
+
+.dices {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.diceImg {
+    margin-top: 40px;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+.playerList{
+    list-style: none;
+    margin-left: -30px;
+}
+
+.playerNum{
+    display: inline-flex;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+.playerNumber {
+    font-family: Montserrat;
+    font-weight: bolder;
+    color: antiquewhite;
+}
+
+.endCredits {
+    font-family: Montserrat;
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 50px;
+}

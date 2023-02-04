@@ -1,0 +1,67 @@
+body {
+    background-color: #333333;
+}
+
+input {
+    width: 25%;
+    background-color: #333333;
+}
+
+button{
+    width: 15%;
+    background-color: #333333;
+    font-family: Orbitron;
+    font-size: 30px;
+    padding: 1% 0.5%;
+    border: 2px solid;
+    transition: 0.5s;
+}
+
+button:hover{
+    width: 30%;
+    letter-spacing: 10px;
+    transition: all 0.5s ease-out;
+    background-color: #008080;
+    font-family: orbitron;
+    cursor: pointer;
+}
+
+a{
+    color: antiquewhite;
+    text-decoration: none;   
+}
+
+.gameTitle {
+    font-size: 5rem;
+    color: #008080;
+    font-family: Orbitron;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.playerNames {
+    text-align: center;
+}
+
+.enterTitle {
+    font-family: Orbitron;
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
+
+.nameSpace {
+    font-family: Orbitron;
+    color: aliceblue;
+    width: 25%;
+    background-color: #333333;
+    padding: 1% 0.5%;
+    border: none;
+    border-bottom: 1px white solid;
+}
+
+.endCredits {
+    font-family: Montserrat;
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 50px;
+}

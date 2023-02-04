@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="diceGameHome.css">
+    <link rel="icon" href="dice.png" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+    </style>
+</head>
+
+<body>
+    <h3 class="gameTitle">Dice Game</h3>
+
+    <div class="playerNames">
+        <form action="diceGame.html">
+            <p class="enterTitle">Enter name for player one:</p>
+            <br>
+            <input class="nameSpace nameSpace1" placeholder="Enter name here..." name="playername1" type="text"
+                value="">
+            <br>
+            <br>
+            <p class="enterTitle">Enter name for player two:</p>
+            <br>
+            <input class="nameSpace nameSpace2" placeholder="Enter name here..." name="playername2" type="text"
+                value="">
+            <br>
+            <br>
+            <br>
+            <script>
+                var inputName1 = prompt("Enter name for player 1");
+                var inputName2 = prompt("Enter name for player 2");
+            </script>
+            <button type="submit">Start</button>
+        </form>
+    </div>
+
+    <!-- <h3 class="gameTitleChange">Refresh To Play</h3>
+
+    <h3 class="gameRule">Refresh <br> To <br> Play</h3>
+
+    <div class="dices">
+        <img class="diceImg diceImg1" src="dice1.png" alt="">
+        <img class="diceImg diceImg2" src="dice1.png" alt="">
+        <ul class="playerList">
+            <li class="playerNum">
+                <p class="playerNumber">Player 1</p>
+            </li>
+            <li class="playerNum">
+                <p class="playerNumber">Player 2</p>
+            </li>
+        </ul>
+    </div> -->
+
+    <h6 class="endCredits">Game by SpectreScythe</h6>
+    <script src="diceGameHome.js"></script>
+</body>
+
+</html>
